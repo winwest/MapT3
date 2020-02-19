@@ -1,0 +1,49 @@
+
+
+<form bindsubmit="sub_Key">
+
+<map id="myMap" 
+    class="myMap"
+    markers="{{markers}}"
+    style="width:100%;height:300px;"
+    longitude="{{poi.longitude}}"
+    latitude="{{poi.latitude}}"
+    scale='16' show-location show-compass
+    style="width:100%;height:{{view.Height}}px;"
+    subkey="U24BZ-4F5WF-MWOJD-JNONC-3WYSE-VQBTF"
+    >
+    <cover-view class="lon_view">地址经度：{{poi.longitude}}</cover-view>
+    <cover-view class="la_view">地址纬度：{{poi.latitude}}</cover-view>
+    <cover-view class="accuracy">精确度:{{poi.accuracy}}</cover-view>
+
+    <!-- 输入关键词 -->
+    <cover-view class="inp_near">
+
+        <!-- cover-input伪代码实现 -->
+        <cover-view class='cover-input' bindtap='tapInput'>
+            <!-- 充当placeholder作用 -->
+            <cover-view class='text'>{{inputInfo}}</cover-view>
+            <input class='input' value='{{inputModel}}' focus='{{inputFocus}}' bindblur='blurInput' bindinput="getKey"></input>
+        </cover-view>
+
+    </cover-view>
+
+
+    <!-- 指南针 -->
+    <cover-view class="ToCompass">
+        <button bindtap="getCompass" >指南针</button> 
+        <!-- url="../compass/compass"></navigator> -->
+    </cover-view>
+
+</map>
+
+</form>
+
+
+    
+
+
+
+
+
+

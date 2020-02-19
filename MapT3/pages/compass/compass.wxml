@@ -1,0 +1,18 @@
+
+
+  <view class="text">
+    <text>你正在</text>
+    <text>{{direction}}</text>
+    <text>{{angle}}°</text>
+  </view>
+
+<view class="pic">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567432651525&di=0e493c0b6bf1d124aec08ea3d7032680&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F01%2F33%2F68%2F592471e8e878a_610.jpg" ></image>
+  
+
+  <cover-image src="../img/指南针.png" style="transform: rotate({{rotate}}deg);"></cover-image>
+
+</view>
+
+
+<navigator url="../Map/Map">返回地图</navigator>

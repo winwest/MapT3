@@ -1,0 +1,6 @@
+
+<view class="img">
+<image src="../img/积木.jpg" class="startimg"></image>
+</view>
+
+<view class="word">加载中，请稍等……</view>

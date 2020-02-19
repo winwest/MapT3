@@ -1,0 +1,66 @@
+.la_view{
+  font-size: 30rpx;
+  width: 43%;
+  color:  rgb(56, 56, 56);
+  margin-top: 5rpx;
+  /* background-color: #fff; */
+}
+.lon_view{
+  width: 43%;
+ font-size: 30rpx;
+ color: rgb(56, 56, 56);
+ margin-top: 30rpx;
+ /* background-color: #fff; */
+}
+.accuracy{
+  font-size: 30rpx;
+  color:  rgb(56, 56, 56);
+} 
+
+.myMap{
+  width: 100%;
+}
+
+.inp_near{
+  width: 80%;
+  height: 72rpx;
+  line-height: 72rpx;
+  display: flex;
+  margin: 30rpx auto;
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+  background-color:#fff;
+}
+.inp_near .text{
+  height: 72rpx;
+  line-height: 72rpx;
+  padding-left: 20rpx;
+  color: rgb(122, 122, 122);
+  /* background-color: red; */
+}
+.inp_near input{
+  height: 72rpx;
+  line-height: 72rpx;
+  padding-left: 20rpx;
+  margin-top: -36px; 
+  /* background-color: blue;  */
+}
+.ToCompass{
+  width:120rpx;
+  height: 50rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 20rpx;
+  margin: -180rpx auto;
+  margin-left: 610rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+.ToCompass button{
+  width: 100%;
+  height: 100%;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 50rpx;
+  background-color: #fff;
+  color: rgb(122, 122, 122);
+}
